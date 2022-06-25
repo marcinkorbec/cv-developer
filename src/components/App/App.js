@@ -4,6 +4,7 @@ import AOS from 'aos'
 import {useEffect} from "react";
 import {MainView} from "../Views/MainView";
 
+
 export const App = () => {
   useEffect(() => {
     AOS.init({

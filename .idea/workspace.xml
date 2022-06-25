@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="671c293a-b439-4a4f-82dc-dddbb3e8c304" name="Changes" comment="Refactor code.">
-      <change afterPath="$PROJECT_DIR$/src/utils/personal-data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Views/MainView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Views/MainView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/personal-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/personal-data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +78,7 @@
       <workItem from="1655648619937" duration="3760000" />
       <workItem from="1656164786165" duration="43000" />
       <workItem from="1656164851409" duration="3000" />
-      <workItem from="1656165198966" duration="6027000" />
+      <workItem from="1656165198966" duration="16998000" />
     </task>
     <task id="LOCAL-00001" summary="update project">
       <created>1650107374949</created>
@@ -183,7 +185,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656174176420</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Refactor code.">
+      <created>1656174242258</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1656174242258</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Refactor code.">
+      <created>1656174254883</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1656174254883</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
