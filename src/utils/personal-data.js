@@ -1,3 +1,12 @@
+export const cvData = async ()=> {
+	const res = await fetch('http://localhost:3021/get-items');
+	const data = await res.json();
+	console.log(data);
+	return data;
+}
+
+cvData();
+
 export const CVData = [
 	{
 		index: "1",
