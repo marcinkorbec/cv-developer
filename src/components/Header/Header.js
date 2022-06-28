@@ -2,11 +2,7 @@ import React from "react";
 import {SocialMedia} from "../SocialMedia/SocialMedia";
 
 export const Header = (props) => {
-
-	const {name} = props;
-	console.log(props);
-	console.log(props[1].name)
-
+	const name = props;
 	return (
 		<header className="d-print-none">
 			<div className="container text-center text-lg-left">
@@ -14,7 +10,7 @@ export const Header = (props) => {
 					<h1 className="site-title mb-0">{props[1].name}</h1>
 					<div className="site-nav">
 						<nav role="navigation">
-							<SocialMedia/>
+							<SocialMedia {...props}/>
 						</nav>
 					</div>
 				</div>
