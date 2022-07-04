@@ -14,8 +14,6 @@ export const SocialMedia = () => {
 		})();
 	}, []);
 
-	console.log(cvData)
-
 
 	if (cvData === null) {
 		return (
