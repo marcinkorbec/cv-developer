@@ -1,17 +1,14 @@
 import React from "react";
-import {personalDesrciptionData} from "../../utils/personal-data";
 
-export const AboutMe = () => {
-
-
+export const AboutMe = (props) => {
 	return (
 		<div className="col-md-6">
 			<h2 className="h3 mb-3">O mnie</h2>
 			<p>
-				{personalDesrciptionData.aboutMe}
+				{props[2].aboutMe}
 			</p>
 			<p><a
-				href={personalDesrciptionData.aboutMeUrl}>{personalDesrciptionData.aboutMeUrl}</a>
+				href={props[2].aboutMeUrl}>{props[2].aboutMeUrl}</a>
 			</p>
 		</div>
 	)
