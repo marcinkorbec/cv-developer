@@ -2,7 +2,6 @@ import React from "react";
 import {SocialMedia} from "../SocialMedia/SocialMedia";
 
 export const Header = (props) => {
-	console.log(props[1].name)
 	return (
 		<header className="d-print-none">
 			<div className="container text-center text-lg-left">
