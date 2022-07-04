@@ -9,7 +9,6 @@ export const SocialMedia = () => {
 			const res = await fetch('http://localhost:3021/get-items');
 			const data = await res.json();
 			const tab = await data.filter(data => data.index > 4 && data.index < 9);
-			console.log(tab)
 			setCvData(tab);
 		})();
 	}, []);
