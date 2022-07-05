@@ -9,7 +9,7 @@ export const Footer = (props) => {
           <div className="h4">{props[1].name}</div>
           <div className="footer-nav">
             <nav role="navigation">
-              <SocialMedia/>
+              <SocialMedia {...props}/>
             </nav>
           </div>
         </div>
