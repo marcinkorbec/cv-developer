@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="671c293a-b439-4a4f-82dc-dddbb3e8c304" name="Changes" comment="Refactor Footer.js">
-      <change afterPath="$PROJECT_DIR$/src/components/Contact/Contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Contact/ContactForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Education/Education.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/personal-data.json" afterDir="false" />
+    <list default="true" id="671c293a-b439-4a4f-82dc-dddbb3e8c304" name="Changes" comment="Refactor code.">
+      <change afterPath="$PROJECT_DIR$/src/components/config/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BlueHeader/BlueHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BlueHeader/BlueHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Education/Education.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Education/Education.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SocialMedia/SocialMedia.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SocialMedia/SocialMedia.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Views/MainView.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Views/MainView.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WorkExperience/DutiesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WorkExperience/DutiesList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Views/MainView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Views/MainView.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/WorkExperience/WorkExperience.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WorkExperience/WorkExperience.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/personal-data.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +84,7 @@
       <workItem from="1656365514395" duration="2478000" />
       <workItem from="1656419889755" duration="24287000" />
       <workItem from="1656799248431" duration="52195000" />
-      <workItem from="1657298216700" duration="10731000" />
+      <workItem from="1657298216700" duration="11452000" />
     </task>
     <task id="LOCAL-00001" summary="update project">
       <created>1650107374949</created>
@@ -384,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657031748702</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Refactor code.">
+      <created>1657382360481</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1657382360481</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,7 +410,6 @@
     <MESSAGE value="refactor MainView.js and App.css" />
     <MESSAGE value="update project" />
     <MESSAGE value="first commit" />
-    <MESSAGE value="Refactor code." />
     <MESSAGE value="Finalization of the socialmedia module." />
     <MESSAGE value="Add Css to MainView." />
     <MESSAGE value="Remove console.log." />
@@ -425,6 +427,7 @@
     <MESSAGE value="Refactor PageContent.js" />
     <MESSAGE value="Refactor Skills.js" />
     <MESSAGE value="Refactor Footer.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor Footer.js" />
+    <MESSAGE value="Refactor code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor code." />
   </component>
 </project>

@@ -3,13 +3,14 @@ import {Header} from "../Header/Header";
 import {PageContent} from "../PageContent/PageContent";
 import {Footer} from "../Footer/Footer";
 import "./MainView.css"
+import {apiUrl} from "../config/api";
 
 export const MainView = () => {
 	const [cvData, setCvData] = useState(null);
 
 	useEffect(() => {
 		(async () => {
-			const res = await fetch('http://localhost:3021/get-items');
+			const res = await fetch(`${apiUrl}/get-items`);
 			const data = await res.json();
 			setCvData(data);
 		})();

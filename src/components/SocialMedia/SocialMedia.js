@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from "react";
+import {apiUrl} from "../config/api";
 
 export const SocialMedia = () => {
 
@@ -6,7 +7,7 @@ export const SocialMedia = () => {
 
 	useEffect(() => {
 		(async () => {
-			const res = await fetch('http://localhost:3021/get-items');
+			const res = await fetch(`${apiUrl}/get-items`);
 			const data = await res.json();
 			const tab = await data.filter(data => data.index > 4 && data.index < 9);
 			setCvData(tab);

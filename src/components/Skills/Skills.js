@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from "react";
+import {apiUrl} from "../config/api";
 
 export const Skills = () => {
 	const [itemLeft, setItemLeft] = useState(null)
@@ -6,7 +7,7 @@ export const Skills = () => {
 
 	useEffect(() => {
 		(async () => {
-			const res = await fetch('http://localhost:3021/get-one/62c34cede58690199141fe9d');
+			const res = await fetch(`${apiUrl}/get-one/62c34cede58690199141fe9d`);
 			const data = await res.json();
 			const itemLeft = await data.itemLeft;
 			const itemRight = await data.itemRight;

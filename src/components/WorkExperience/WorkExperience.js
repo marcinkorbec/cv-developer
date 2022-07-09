@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react";
 import {DutiesList} from "./DutiesList";
+import {apiUrl} from "../config/api";
 
 export const WorkExperience = (props) => {
 
@@ -7,7 +8,7 @@ export const WorkExperience = (props) => {
 
 	useEffect(() => {
 		(async () => {
-			const res = await fetch('http://localhost:3021/get-items');
+			const res = await fetch(`${apiUrl}/get-items`);
 			const data = await res.json();
 			const tab = data
 				.filter(data => data.index >= 11 && data.index <= 15)
