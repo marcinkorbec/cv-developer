@@ -1,0 +1,21 @@
+{
+  "index": 19,
+  "type": "Edukacja",
+  "title": "\"MegaK.pl\"",
+  "subtitle": " - roczny kurs Full-Stack Developer.",
+  "year": "06.2021 - 08.2022",
+  "duties": "Roczny intensywny kurs, w którym styczność z kodem ma miejsce prawie codziennie. Prowadzony jest pod kątem Full-Stack Developera z naciskiem na back-end. Składa się z 8 etapów i 1 bonusowego etapu dla osób, którym uda się zakwalifikować.",
+  "dutiesArray": [
+    "JavaScript od podstaw do profesjonalisty,",
+    "Node.js od podstaw do profesjonalisty,",
+    "Najbardziej znany framework dla Node.js - Express.js,",
+    "Bazy danych - MySQL & MongoDB,",
+    "TypeScript, czyli nadzbiór JavaScriptu,",
+    "Full-stack developer - React,",
+    "Node.js Advanced - praktyka i praca,",
+    "Praca zespołowa w oparciu o GIT i Scrum."
+  ],
+  "_id": {
+    "$oid": "62c430a6e58690199141fea4"
+  }
+}

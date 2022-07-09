@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="671c293a-b439-4a4f-82dc-dddbb3e8c304" name="Changes" comment="Refactor code." />
+    <list default="true" id="671c293a-b439-4a4f-82dc-dddbb3e8c304" name="Changes" comment="Refactor Footer.js">
+      <change afterPath="$PROJECT_DIR$/src/components/Contact/Contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contact/ContactForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Education/Education.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/personal-data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BlueHeader/BlueHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BlueHeader/BlueHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SocialMedia/SocialMedia.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SocialMedia/SocialMedia.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Views/MainView.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Views/MainView.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WorkExperience/DutiesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WorkExperience/DutiesList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WorkExperience/WorkExperience.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WorkExperience/WorkExperience.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/personal-data.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +86,9 @@
       <workItem from="1656164851409" duration="3000" />
       <workItem from="1656165198966" duration="17041000" />
       <workItem from="1656365514395" duration="2478000" />
-      <workItem from="1656419889755" duration="7574000" />
+      <workItem from="1656419889755" duration="24287000" />
+      <workItem from="1656799248431" duration="52195000" />
+      <workItem from="1657298216700" duration="10731000" />
     </task>
     <task id="LOCAL-00001" summary="update project">
       <created>1650107374949</created>
@@ -244,7 +258,133 @@
       <option name="project" value="LOCAL" />
       <updated>1656447472214</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Refactor code.">
+      <created>1656447598928</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1656447598928</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Finalization of the socialmedia module.">
+      <created>1656953578520</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1656953578520</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Add Css to MainView.">
+      <created>1656953637082</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1656953637082</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Remove console.log.">
+      <created>1656954222350</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1656954222350</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Finalization Header.js">
+      <created>1656954370918</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1656954370918</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Reafctor AboutMe.js.">
+      <created>1656957902601</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1656957902601</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Refactor Details.js.">
+      <created>1656958312333</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1656958312333</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Update BlueHeader.js.">
+      <created>1656960497903</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1656960497903</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Refactor Footer.js.">
+      <created>1656960699247</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1656960699247</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Remove console.log">
+      <created>1656965868057</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1656965868057</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Refactor Header.js">
+      <created>1656965927134</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1656965927134</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Refactor Mainview.js">
+      <created>1656976499617</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1656976499617</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Create Address.js">
+      <created>1657031453664</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1657031453664</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Create DutiesList.js">
+      <created>1657031484114</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1657031484114</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Create WorkExperience.js">
+      <created>1657031560638</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1657031560638</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Refactor PageContent.js">
+      <created>1657031612349</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1657031612349</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Refactor Skills.js">
+      <created>1657031704840</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1657031704840</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Refactor Footer.js">
+      <created>1657031748702</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1657031748702</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +408,23 @@
     <MESSAGE value="update project" />
     <MESSAGE value="first commit" />
     <MESSAGE value="Refactor code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor code." />
+    <MESSAGE value="Finalization of the socialmedia module." />
+    <MESSAGE value="Add Css to MainView." />
+    <MESSAGE value="Remove console.log." />
+    <MESSAGE value="Finalization Header.js" />
+    <MESSAGE value="Reafctor AboutMe.js." />
+    <MESSAGE value="Refactor Details.js." />
+    <MESSAGE value="Update BlueHeader.js." />
+    <MESSAGE value="Refactor Footer.js." />
+    <MESSAGE value="Remove console.log" />
+    <MESSAGE value="Refactor Header.js" />
+    <MESSAGE value="Refactor Mainview.js" />
+    <MESSAGE value="Create Address.js" />
+    <MESSAGE value="Create DutiesList.js" />
+    <MESSAGE value="Create WorkExperience.js" />
+    <MESSAGE value="Refactor PageContent.js" />
+    <MESSAGE value="Refactor Skills.js" />
+    <MESSAGE value="Refactor Footer.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor Footer.js" />
   </component>
 </project>

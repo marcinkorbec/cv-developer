@@ -19,38 +19,37 @@ export const WorkExperience = (props) => {
 
 	if (cvData === null) {
 		return (
-			<div className="lds-heart">
-				<div></div>
-			</div>
-		)
-	} else {
-		return (
-			<>
-				<div className="education-section px-3 px-lg-4 pb-4">
-					<h2 className="h3 mb-4">Doświadczenie</h2>
-					<div className="timeline">
-						{
-							cvData.map(cvItem => (
-								<div className="timeline-card timeline-card-primary card shadow-sm"
-										 data-aos="fade-up">
-									<div className="card-body" key={cvItem._id}>
-										<div className="h5 mb-1">{cvItem.title}<span
-											className="text-muted h6">{cvItem.subtitle}</span>
-										</div>
-										<div className="text-muted text-small mb-2">{cvItem.year}</div>
-										<div>
-											<p>Zakres obowiązków:</p>
-											<ul>
-												<DutiesList array={cvItem.dutiesArray}/>
-											</ul>
-										</div>
-									</div>
-								</div>
-							))
-						}
-					</div>
-				</div>
-			</>
+			<div/>
 		)
 	}
+
+
+	return (
+		<>
+			<div className="education-section px-3 px-lg-4 pb-4">
+				<h2 className="h3 mb-4">Doświadczenie</h2>
+				<div className="timeline">
+					{
+						cvData.map(cvItem => (
+							<div className="timeline-card timeline-card-primary card shadow-sm"
+									 data-aos="fade-up">
+								<div className="card-body" key={cvItem._id}>
+									<div className="h5 mb-1">{cvItem.title}<span
+										className="text-muted h6"> {cvItem.subtitle}</span>
+									</div>
+									<div className="text-muted text-small mb-2">{cvItem.year}</div>
+									<div>
+										<p>Zakres obowiązków:</p>
+										<ul>
+											<DutiesList array={cvItem.dutiesArray}/>
+										</ul>
+									</div>
+								</div>
+							</div>
+						))
+					}
+				</div>
+			</div>
+		</>
+	)
 }

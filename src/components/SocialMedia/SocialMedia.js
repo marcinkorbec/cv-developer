@@ -16,9 +16,7 @@ export const SocialMedia = () => {
 
 	if (cvData === null) {
 		return (
-			<div className="lds-heart">
-				<div></div>
-			</div>
+			<div/>
 		)
 	} else {
 		return (
